@@ -1,0 +1,3 @@
+what happens when you initialize a repository? why do you need to do it?
+answer:
+git init is the command used to initialize a git repository. when we initialize a repository we create a new git repository. there will be no commit at the very begenning. git doesnt create any commits for you at the begenning. we will have to crete the first commit ourself. git status is used to which files have been changed sinc the lasst commit.

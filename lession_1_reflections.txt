@@ -1,0 +1,46 @@
+how did viewing a diff between two versions of a file help you see the bug that was introduced?
+answer :
+there was a typo in the new file written.
+the typo was so subtle that it was practically 
+impossible to spot it. by viewing the diff betweeen
+the older file and the new file, the bug was easy to
+spot and can be efficiently removed without much hassle.
+
+how could having easy access to the entire history of a file make you a more efficient programmer in he long term??
+answer:
+Having entire history of a file is very important.
+consider a scenerio in which i create a web page.
+i make changes to this webpage repeatedly over a period of time .
+it is really important to keep track of these changes.
+if a change screws up my code completely and introduce many bugs
+which might take several days to find and fix them. instead of this i simply 
+revert back to the old known point in the program which was stable.
+this is very efficient on part of a progrmmer as it saves huge amount of time
+and help in the long run.
+
+what do u think are the pros and cons of manually choosing when to create a commit, like you do in git vs having versions automatically saved, like google docs does??
+answer :
+there a many positives and negatives of choosing when to create commit manually vs automatic saving. manual commits gives us control as to when we want to create a commit. usually we do a commit when there is a logical change, this is the best rule of thumb. this lets us keep the number of commits to small and is easy to manage the commit history. we should keep in mind that commits shouldnt be too small or too big, they have to be just right and manual commit gives this power. where as in automatic savings like google docs, the commits are performed automatically and it doeant give flexilibility to the users. 
+
+why do u think some version control systems like git allow saving multiple files in one commit, while others like google docs, treat filles seperately??
+answer:
+Git allows us to track changes in multiple files simultaneously. for example in a game program, there are more files associated with the application and are interdependent. so as they are interdependent on each other, for the proper functioning of the application, version control systems like git allows saving multiple files in one commit. but in case of google docs, it treats every individual files seperately and commits them individually, it doesnt allow to save  multiple files in one commit
+
+how can you use the commands git log and git diff to view the history of files?
+answer:
+the command git log displays the list of commits done on a file. it tells all the details about the commit like author of that commit, timestamp, message explaining the commit etc.
+the command git diff is used to compare the commits of a single file to accurately know the difference beteen the commits. any changes in the two files is displayed when we use this command.
+so using these two commands we can effectively know the history of the files.
+
+how might using version control make you more confident to make changes that could break something?
+answer:
+using version control we have the ability to revert back to the previous state at any given time. so we can leverage this and make changes that could break something. even if something goes teribly goes wrong we can revert back to previous state. this power makes us more confident to make changes that could break something.
+
+now that you have your workspace setup,what do you want to try using git for?
+answer:
+now my workspace is all set up. i can use git for version control. ill be making changes in my files and using git on my mac ill commit my work and be afficient in programming.
+
+now that you have your workspace setup,what do you want to try using git for?
+answer:
+now my workspace is all set up. i can use git for version control. ill be making changes in my files and using git on my mac ill commit my work and be afficient in programming.
+
