@@ -1,0 +1,8 @@
+when would you want to use a remote repository rather than keeping all your work local??
+answer:
+Keeping all the work locally makes the files available only to a particular user.
+suppose a team of three people wanted to work on a project together, and each of them are working on 
+different things then keeping the local repository makes little sense. This is the time when we make use of 
+remote repository. using remote repository we can share the files of the project to all. we can all perform work
+individually and then commit the changes to the remote repository. Doing this keeps the remote repository up to 
+date and also there will be easy access to all of the team.
